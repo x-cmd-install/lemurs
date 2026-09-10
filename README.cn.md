@@ -4,13 +4,25 @@
 
 A customizable TUI display/login manager written in Rust 🐒
 
-![lemurs](https://repo.x-cmd.io/lemurs.svg)
+![lemurs](https://repo.x-cmd.io/lemurs.svg?lang=zh)
 
 ## 安装
 
 ```sh
 x install lemurs
 ```
+
+## 代码规模
+
+合计: **4,601** 行代码（覆盖前 5 种语言、共 **31** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Rust | 3,950 | 126 | 744 | 19 |
+| Nix | 292 | 25 | 51 | 5 |
+| Toml | 153 | 197 | 88 | 3 |
+| Sh | 133 | 25 | 24 | 2 |
+| Svg | 73 | 1 | 0 | 2 |
 
 ## 源代码
 
@@ -22,7 +34,6 @@ x install lemurs
 - **最新版本**: `v0.4.0` (2025-02-22)
 - **最近提交**: 2026-06-28
 - **Release 含资产**: 6 个
-- **发布时间**: 2025-02-22T12:29:25Z
 
 ## 流行度
 
@@ -37,20 +48,32 @@ x install lemurs
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 1 | 0 | 1 | 0 |
 | 90d | 2026-06-12 | 0 | 1 | 2 | 0 | 2 | 1 |
+| last180d | 2026-03-14 | 0 | 1 | 2 | 0 | 6 | 1 |
 | 360d | 2025-09-15 | 0 | 9 | 6 | 1 | 14 | 16 |
+| last720d | 2024-09-20 | 1 | 9 | 7 | 4 | 26 | 28 |
 
-## 代码规模
+## Release 资产
 
-合计: **4,601** 行代码（覆盖前 5 种语言、共 **31** 个文件）。
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [dist-manifest.json](https://github.com/coastalwhite/lemurs/releases/download/v0.4.0/dist-manifest.json) | 6.6 KiB | `other` |
+| [lemurs-x86_64-unknown-linux-gnu.tar.xz](https://github.com/coastalwhite/lemurs/releases/download/v0.4.0/lemurs-x86_64-unknown-linux-gnu.tar.xz) | 819.2 KiB | `native/linux/x64/glibc` |
+| [lemurs-x86_64-unknown-linux-gnu.tar.xz.sha256](https://github.com/coastalwhite/lemurs/releases/download/v0.4.0/lemurs-x86_64-unknown-linux-gnu.tar.xz.sha256) | 106 B | `native/linux/x64/glibc` |
+| [sha256.sum](https://github.com/coastalwhite/lemurs/releases/download/v0.4.0/sha256.sum) | 186 B | `other` |
+| [source.tar.gz](https://github.com/coastalwhite/lemurs/releases/download/v0.4.0/source.tar.gz) | 73.4 KiB | `native/unknown` |
+| [source.tar.gz.sha256](https://github.com/coastalwhite/lemurs/releases/download/v0.4.0/source.tar.gz.sha256) | 81 B | `other` |
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Rust | 3,950 | 126 | 744 | 19 |
-| Nix | 292 | 25 | 51 | 5 |
-| Toml | 153 | 197 | 88 | 3 |
-| Sh | 133 | 25 | 24 | 2 |
-| Svg | 73 | 1 | 0 | 2 |
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/lemurs) 上共有 **21** 个发行版报告此项目。**15** 个 ✅ 已是最新上游版本，**3** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Arch | `0.4.0` | ✅ latest |
+| Nix unstable | `0.4.0` | ✅ latest |
+| Void | `0.4.0` | ✅ latest |
 
 ## 改进这些数据
 
@@ -61,4 +84,4 @@ lemurs 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:56:33Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:32:47Z._
