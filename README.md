@@ -37,7 +37,7 @@ Total: **4,601** lines of code across **31** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,356 · **Forks**: 56 · **Open issues**: 159 · **Contributors**: 13
+- **Stars**: 1,357 · **Forks**: 56 · **Open issues**: 159 · **Contributors**: 13
 
 ## Totals (cumulative)
 
@@ -84,4 +84,4 @@ Install metadata for lemurs lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T20:32:46Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T23:22:32Z._
