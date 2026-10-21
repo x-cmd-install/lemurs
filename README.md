@@ -37,7 +37,7 @@ Total: **4,738** lines of code across **32** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,360 · **Forks**: 57 · **Open issues**: 164 · **Contributors**: 15
+- **Stars**: 1,359 · **Forks**: 57 · **Open issues**: 164 · **Contributors**: 15
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **4,738** lines of code across **32** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-20 | 0 | 2 | 1 | 2 | 1 | 2 |
-| last60d | 2026-08-21 | 0 | 2 | 1 | 3 | 2 | 2 |
-| 90d | 2026-07-22 | 0 | 3 | 1 | 4 | 2 | 5 |
-| last180d | 2026-04-23 | 0 | 4 | 2 | 4 | 5 | 6 |
-| 360d | 2025-10-25 | 0 | 12 | 6 | 5 | 14 | 21 |
-| last720d | 2024-10-30 | 1 | 12 | 7 | 6 | 24 | 33 |
+| 30d | 2026-09-21 | 0 | 2 | 1 | 2 | 1 | 2 |
+| last60d | 2026-08-22 | 0 | 2 | 1 | 3 | 2 | 2 |
+| 90d | 2026-07-23 | 0 | 3 | 1 | 4 | 2 | 5 |
+| last180d | 2026-04-24 | 0 | 4 | 2 | 4 | 5 | 6 |
+| 360d | 2025-10-26 | 0 | 12 | 6 | 5 | 14 | 21 |
+| last720d | 2024-10-31 | 1 | 12 | 7 | 6 | 24 | 33 |
 
 ## Release assets
 
@@ -74,4 +74,4 @@ Install metadata for lemurs lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261020.yml` · 2026-10-20T05:52:03Z._
+_Snapshot: `data/card/261021.yml` · 2026-10-21T05:42:29Z._
