@@ -1,4 +1,16 @@
-- repo: nix_stable_25_11
+- repo: nix_stable_24_11
+  srcname: lemurs
+  visiblename: lemurs
+  version: 0.3.2
+  origversion: null
+  status: outdated
+  summary: Customizable TUI display/login manager written in Rust
+  maintainers:
+    - jeremiah@secrist.xyz
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: nix_stable_25_05
   srcname: lemurs
   visiblename: lemurs
   version: 0.4.0
@@ -11,6 +23,28 @@
   licenses:
     - Apache-2.0
     - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: lemurs
+  binname: lemurs
+  visiblename: lemurs
+  version: 0.4.0
+  origversion: 0.4.0-1
+  status: newest
+  summary: A customizable TUI display/login manager written in Rust
+  licenses:
+    - Apache-2.0 OR MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: lemurs
+  binname: lemurs
+  visiblename: lemurs
+  version: 0.4.0
+  origversion: 0.4.0-1
+  status: newest
+  summary: A customizable TUI display/login manager written in Rust
+  licenses:
+    - Apache-2.0 OR MIT
 - repo: arch
   subrepo: extra
   srcname: lemurs
@@ -79,6 +113,18 @@
     - Unicode-DFS-2016
   categories:
     - gui-apps
+- repo: nix_stable_24_05
+  srcname: lemurs
+  visiblename: lemurs
+  version: 0.3.2
+  origversion: null
+  status: outdated
+  summary: A customizable TUI display/login manager written in Rust
+  maintainers:
+    - jeremiah@secrist.xyz
+  licenses:
+    - Apache-2.0
+    - MIT
 - repo: gentoo_ovl_guru
   srcname: gui-apps/lemurs
   visiblename: gui-apps/lemurs
@@ -164,7 +210,7 @@
     - Unicode-DFS-2016
   categories:
     - gui-apps
-- repo: manjaro_unstable
+- repo: manjaro_stable
   subrepo: extra
   srcname: lemurs
   binname: lemurs
@@ -175,31 +221,7 @@
   summary: A customizable TUI display/login manager written in Rust
   licenses:
     - Apache-2.0 OR MIT
-- repo: nix_stable_24_05
-  srcname: lemurs
-  visiblename: lemurs
-  version: 0.3.2
-  origversion: null
-  status: outdated
-  summary: A customizable TUI display/login manager written in Rust
-  maintainers:
-    - jeremiah@secrist.xyz
-  licenses:
-    - Apache-2.0
-    - MIT
-- repo: nix_stable_24_11
-  srcname: lemurs
-  visiblename: lemurs
-  version: 0.3.2
-  origversion: null
-  status: outdated
-  summary: Customizable TUI display/login manager written in Rust
-  maintainers:
-    - jeremiah@secrist.xyz
-  licenses:
-    - Apache-2.0
-    - MIT
-- repo: nix_stable_25_05
+- repo: nix_stable_25_11
   srcname: lemurs
   visiblename: lemurs
   version: 0.4.0
